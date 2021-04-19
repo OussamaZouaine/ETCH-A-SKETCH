@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+}
+
+h1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn {
+    margin: 30px auto 20px;
+    width: 200px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(0.99);
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    border: 2px solid black;
+    display: grid;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.15);
+}
